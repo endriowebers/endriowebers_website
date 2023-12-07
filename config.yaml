@@ -27,11 +27,11 @@ menu:
     url: /blog/
   - identifier: articles
     name: Articles
-    weight: 40
+    weight: 30
     url: /articles/
   - identifier: projects
     name: Projects
-    weight: 50
+    weight: 30
     url: /projects/
   - identifier: categories
     name: Categories
@@ -41,6 +41,10 @@ menu:
     name: Tags
     weight: 70
     url: /tags/
+  - identifier: newpage
+    name: New Page
+    weight: 80
+    url: /newpage/
 paginate: 50
 permalinks:
   blog: /blog/:year/:month/:day/:title/

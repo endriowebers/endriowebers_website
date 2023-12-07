@@ -1,0 +1,27 @@
+---
+title: primeira tentativa de post
+author: ''
+date: '2023-12-07'
+slug: primeira-tentativa-de-post
+categories: []
+tags: []
+description: ''
+keywords: []
+link: ''
+---
+# new things
+```{r}
+summary(Orange)
+```
+
+## gráfico Orange
+```{r echo=FALSE}
+library(ggplot2)
+ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   color = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(color = "none") +
+  theme_bw()
+```
